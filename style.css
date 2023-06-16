@@ -1,0 +1,326 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*cabecera titulo*/
+.contenedor-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.contenedor-header .titulo-wiki{
+    font-size: 38px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.frase{
+    
+    font-size: 16px;
+
+}
+
+/*organizacion de idiomas*/
+.idiomas{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.conteiner-idiomas{
+    position: relative;
+    
+}
+.num{
+    display: inline-block;
+}
+.conteiner-idiomas .espanol{
+    position: absolute;
+    right: 200px;
+    
+}
+.conteiner-idiomas .english{
+    position: absolute;
+    left: 200px;
+    
+}
+.conteiner-idiomas .ruso{
+    position: absolute;
+    right: 230px;
+    top: 60px;
+}
+
+.conteiner-idiomas .japones{
+    position: absolute;
+    left: 230px;
+    top: 60px;
+    
+}
+
+.conteiner-idiomas .aleman{
+    position: absolute;
+    right: 235px;
+    top: 120px;
+}
+
+.conteiner-idiomas .frances{
+    position: absolute;
+    left: 235px;
+    top: 120px;
+    
+}
+
+.conteiner-idiomas .italiano{
+    position: absolute;
+    right: 230px;
+    top: 180px;
+    
+}
+
+
+.conteiner-idiomas .chino{
+    position: absolute;
+    left: 230px;
+    top: 180px;
+    
+}
+
+.conteiner-idiomas .persa{
+    position: absolute;
+    right: 200px;
+    top: 230px;
+    text-align: center;
+}
+.conteiner-idiomas .portugues{
+    position: absolute;
+    left: 200px;
+    top: 235px;
+   
+}
+
+.img-wiki{
+    margin-top: 50px;
+}
+
+.conteiner-idiomas .title-style{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.conteiner-idiomas .title-style strong{
+    color: #36c;
+    font-size: 18px;
+}
+
+/*buscador*/
+
+.conteiner-search{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.buscador{
+    display: flex;
+
+}
+.buscador-imput{
+    width: 394px;
+    height: 44px;
+    border: 1px solid #a2a9b1;
+}
+
+.buscador-imput:hover{
+    border: 1px solid #787d81;
+}
+
+.buscador-imput:active{
+    border: 2px solid #36c;
+    outline: 2px;
+}
+
+.buscador-imput input{
+    width: 338px;
+    height: 30px;
+    border: none;
+    outline: 0px;
+    margin: 6px 0 6px 0;
+}
+
+
+
+.selector {
+    display: inline-block;
+    width: 42px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    color: #676b70;
+    cursor: pointer;
+}
+
+.buscador-lupa {
+    
+    background-color: #36c;
+    height: 44px;
+    width: 56px;
+    cursor: pointer;
+}
+
+.buscador-lupa img{
+    width: 24px;
+    margin: 12px;
+}
+
+/*Barra de lenguajes*/
+
+.all-lenguajes{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.leer-wiki{
+    border: solid 1px #a2a9b1;
+    height: 36px;
+}
+
+.leer-wiki:active{
+    border: solid 2px #36c;
+
+}
+
+.leer-wiki p{
+    color: #36c;
+    display: inline-block;
+    margin: 5px 0 5px 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+
+.leer-wiki select{
+    border: none;
+    outline: none;
+    margin: 5px;
+    font-weight: 300;
+    font-size: 16px; 
+    color: #36c;
+}
+        /*alineas*/
+.linea{
+    width: 75px;
+    margin: 18px 15px 0 15px;
+    height: 1px;
+    background-color: #a2a9b1;
+}
+
+.linea-larga{
+    width: 98%;
+    height: 1px;
+    background-color: #a2a9b1;
+    margin: 45px 12px 50px 12px;
+}
+
+.conteiner-footer{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 100px;
+    margin-bottom: 20px;
+}
+
+.section1{
+    margin-left: 80px;
+}
+
+.alojador{
+    display: flex;
+}
+
+.descargar{
+    display: flex;
+    margin-top: 40px;
+}
+
+.img-alojador{
+    width: 42px;
+    height: 42px;
+    margin: 0 20px 0 0;
+}
+
+.stores-img{
+    width: 100px;
+    height: 40px;
+}
+
+.otras-apps{
+    width: 50px;
+    height: 47px;
+    margin-right: 8px;
+}
+
+.conteiner-aplicaciones{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.cards-app{
+    display: flex;
+}
+
+.titulos{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #36c;
+}
+
+.descripcion{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 98%;
+    color: #676b70;
+}
+
+.title-descarga{
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 15px;
+    color: rgb(31, 60, 119);
+}
+
+.fuente-tex{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: rgb(44, 53, 73);
+}
+
+.conteiner-appstore{
+    margin: 15px 0 0 0;
+}
+
+.style-link{
+    text-decoration: none;
+    color: #36c;
+}
+
+.linea-final{
+    width: 98%;
+    height: 1px;
+    background-color: #a2a9b1;
+    margin: 0 12px 0 12px;
+}
+
+/*Terminos y condiciones*/
+
+.terminos{
+    margin: 15px 0 15px 0;
+}
+
+.politicas{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
